@@ -5,10 +5,13 @@ main{
 }
 
 
+
+
 .section1{
     margin: 5% 10%;
 }
 
+/* first section */
 .journ{
     margin-bottom: 2%;
     font-family: "Montserrat", sans-serif;
@@ -24,3 +27,61 @@ main{
     margin-top: 1%;
 }
 
+
+/* Second section */
+
+.sec2image img{
+    width: 500px;
+    border-radius: 30px;
+}
+
+.sideimages img{
+    width: 100px;
+    margin-top: 10%;
+    margin-right: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.sec2main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15%;
+    
+    /* border: 1px solid red; */
+    /* padding: 30px; */
+
+}
+
+.sec2side{
+    display: block;
+    /* border: 1px solid red; */
+    flex-basis: 50%;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    /* padding-top: 10%; */
+    
+
+}
+
+
+.sec2side h4{
+    font-size: 40px;
+    color: #5387BD;
+    line-height: 70px
+    /* font-family: "Montserrat", sans-serif; */
+
+}
+
+.sec2side p{
+    line-height: 40px;
+    line-clamp: 20px;
+}
+
+
+
+/* {
+    width: 100px;
+} */
