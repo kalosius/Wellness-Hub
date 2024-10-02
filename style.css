@@ -11,11 +11,11 @@ main{
 
 .journ{
     margin-bottom: 2%;
-    font-family: "Rubik", sans-serif;
-    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
 }
 
-.journ h1{
+.journ h1, .journ h4{
     color: #5387BD;
 
 }
@@ -23,3 +23,4 @@ main{
 .journ p{
     margin-top: 1%;
 }
+
