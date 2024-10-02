@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: absolute;
+    width: 100vw;
+    height: 120vh;
+    background-image: url("./images/lanscape1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+/* navbar */
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: green;
+    width: 100vw;
+}
+
+.logo{
+    margin-left: 10%;
+}
+
+.navlinks ul{
+    /* border: 1px solid red; */
+    width: 50vw;
+}
+
+.navlinks ul li{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.bannerwords{
+    position: relative;
+    margin-top: 50vh;
+    margin-left: 10%;
+}
