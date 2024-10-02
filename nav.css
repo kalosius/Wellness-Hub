@@ -41,15 +41,31 @@ nav{
     cursor: pointer;
 }
 
+
+
 .navlinks ul li{
     display: inline-block;
     margin-right: 5%;
+    transition: all 0.5s ease-in;
 }
+
+/* .navlinks ul li:hover{
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #5387BD;
+}
+*/
 
 
 .difflink{
     border: 1px solid white;
-    padding: 20px 20px;
+    padding: 10px 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.difflink:hover{
+    background-color: #5387BD;
+    padding: 10px 20px;
+    border: none;
 }
 
 
