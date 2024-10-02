@@ -46,6 +46,27 @@ nav{
 
 .bannerwords{
     position: relative;
-    margin-top: 50vh;
+    margin-top: 30vh;
     margin-left: 10%;
+    
+}
+
+.bannerwords .titban{
+    font-size: 70px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+}
+
+.bannerwords p{
+    margin-top: 2%;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.bannerwords button{
+    margin-top: 2%;
+    padding: 10px 50px;
+    cursor: pointer;
 }
