@@ -1,0 +1,25 @@
+main{
+    position: relative;
+    padding-top: 120vh;
+
+}
+
+
+.section1{
+    margin: 5% 10%;
+}
+
+.journ{
+    margin-bottom: 2%;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+}
+
+.journ h1{
+    color: #5387BD;
+
+}
+
+.journ p{
+    margin-top: 1%;
+}
