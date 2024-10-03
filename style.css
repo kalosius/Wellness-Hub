@@ -10,6 +10,7 @@ main{
 
 
 
+
 .section1{
     margin: 5% 10%;
 }
@@ -97,13 +98,24 @@ main{
 /* Section3 */
 .section3{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     margin-top: 10%;
+    line-height: 1.5;
 
 }
 
 .experience{
     text-align: center;
+}
+
+.experience h1{
+    color: #5387BD;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.experience p{
+    font-size: 20px;
 }
 
 .sec3cards{
@@ -113,9 +125,11 @@ main{
     margin-top: 5%;
     /* border: 1px solid red; */
     width: 100vw;
+    flex-wrap: wrap;
 }
 
 .cardcont{
+
     /* flex-basis: 35%; */
     /* border: 1px solid red; */
     border-radius: 20px;
@@ -151,4 +165,18 @@ main{
 
 .cawords ul li{
     margin-bottom: 20px;
+}
+
+
+.cawords a{
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cawords a:hover{
+    border-radius: 10px;
+    background-color: #5387BD;
+    color: #F3F3F3;
+    padding: 0 20px 0 20px;
 }
