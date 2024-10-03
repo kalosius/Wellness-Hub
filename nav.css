@@ -28,13 +28,16 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    /* background-color: #8B8B8B; */
+    background-color: #5387BD;
     width: 100vw;
     height: 15%;
     color: #FFFFFF;
+    font-family: "Rubik", sans-serif;
     font-size: 20px;
     z-index: 1;
+
 }
+
 
 .logo{
     margin-left: 10%;
