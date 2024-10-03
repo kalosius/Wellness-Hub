@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 main{
     position: relative;
     padding-top: 120vh;
@@ -85,3 +88,67 @@ main{
 /* {
     width: 100px;
 } */
+
+
+
+
+
+
+/* Section3 */
+.section3{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10%;
+
+}
+
+.experience{
+    text-align: center;
+}
+
+.sec3cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 5%;
+    /* border: 1px solid red; */
+    width: 100vw;
+}
+
+.cardcont{
+    /* flex-basis: 35%; */
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background-color: #F3F3F3;
+    
+    /* margin: 0 auto; */
+}
+
+
+.caimage{
+    /* border: 1px solid red; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cawords{
+    margin-left: 10%;
+
+}
+
+.cawords p{
+    color: #5387BD;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.cawords ul{
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+.cawords ul li{
+    margin-bottom: 20px;
+}
