@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5;
+    
 }
 
 
@@ -55,6 +56,12 @@ nav{
     display: inline-block;
     margin-right: 5%;
     transition: all 0.5s ease-in;
+}
+
+.navlinks ul li a{
+    color: white;
+    text-decoration: none;
+
 }
 
 /* .navlinks ul li:hover{

@@ -1,0 +1,30 @@
+.contactheader{
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    background-image: url("./images/newbanner.jpg");
+    background-size: fill;
+    /* background-position: 0vh; */
+    
+    }
+
+ main{
+    /* border: 1px solid red; */
+    padding-top: 35%;
+    text-align: center;
+ }
+
+.contact-title{
+    font-size: 50px;
+}
+
+.details{
+    color: #444C57;
+    margin-top: 100px;
+}
+
+.details p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+    
