@@ -29,7 +29,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    background-color: #5387BD;
+    /* background-color: #5387BD; */
     width: 100vw;
     height: 15%;
     color: #FFFFFF;
