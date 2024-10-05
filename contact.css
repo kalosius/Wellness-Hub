@@ -27,4 +27,112 @@
     margin-top: 20px;
     font-size: 30px;
 }
+
+/* Contact section */
+.contact-part{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    /* background-color: #657a80; */
+    padding: 50px 0 50px 0;
+}
+
+.side1, .form{
+    
+    flex-basis: 50%;
+    margin: 0 10px;
+
+}
+
+.side1{
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.side1 h1{
+    color: #444C57;
+    margin-bottom: 20px;
+}
+
+.side1 p{
+    margin-bottom: 20px;
+}
+
+.side1 ul{
+    list-style-type: none;
+    
+}
+
+.side1 ul li i{
+    padding-right: 3px;
+    padding-left: 10px;
+    color: #444C57;
+}
+
+.follow{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #444C57;
+    margin-top: 10%;
+    padding-top: 20px;
+}
+
+.follow h3{
+    font-size: 30px;
+    color: #444C57;
+}
+
+.follow li{
+    display: inline-block;
+   
+}
+
+
+.form{
+    margin-left: 50px;
+    margin-right: 10%;
+
+}
+
+form input,label, textarea, button{
+    text-align: left;
+    /* border: 1px solid red; */
+    display: block;
+    color: #444C57;
+}
+
+form input, textarea, button{
+    margin-top: 1px;
+    margin-bottom: 2%;
+    width: 100%;
+    padding: 15px;
+}
+
+form input, textarea, button{
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.form label{
+    font-size: larger;
+}
+
+.form button{
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.form button:hover{
+   background-color: #5387BD;
+    color: white;
+    border: none;
+}
+
+
     
