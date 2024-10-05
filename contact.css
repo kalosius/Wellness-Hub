@@ -22,6 +22,12 @@
     z-index: 1; 
 }
 
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+
  main{
     /* border: 1px solid red; */
     padding-top: 35%;
