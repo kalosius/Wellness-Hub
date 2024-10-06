@@ -1,0 +1,68 @@
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutus{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.firstion{
+    /* border: 1px solid red; */
+    margin-top: 5%;
+}
+
+.firstion h1, .footerbanner h1, .numbers h2{
+    color: #5387BD;
+    font-family: "Rubik", sans-serif;
+}
+
+.firstion p, .numbers p, .numbers ul, .footerbanner p{
+    line-height: 1.5;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.numbers{
+    flex-basis: 50%;
+}
+
+.numbers h1{
+    color: #D2BF8B;
+    font-size: 50px;
+}
+
+
+.secondtion{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10%;
+    height: 60vh;
+}
+
+/* images */
+.image img{
+    flex-basis: 50%;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.footerbanner{
+    font-family: "Rubik", sans-serif;
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    /* background-color: #FBFBFB; */
+    
+}
+.fw{
+    text-align: center;
+    margin: 0 10% 0 10%;
+}
+
+
+

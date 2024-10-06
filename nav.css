@@ -66,8 +66,25 @@ nav{
 .navlinks ul li a{
     color: white;
     text-decoration: none;
+    transition: all 0.5s ease-in;
+}
+
+.navlinks ul li a:hover{
+    color: #f7dd92;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #f7dd92;
+    transform-origin: 40%;
 
 }
+.navlinks ul li:hover{
+    color: #f7dd92;
+    transform-origin: 40%;
+
+}
+
+
+
+
 
 /* .navlinks ul li:hover{
     padding: 0 0 10px 0;

@@ -1,3 +1,7 @@
+*{
+    font-family: "Rubik", sans-serif;
+}
+
 .contactheader{
     position: absolute;
     width: 100vw;
@@ -155,4 +159,17 @@ form input, textarea, button{
 }
 
 
+form input[type="text"]:focus{
+    border: 3px solid green;
+    outline: none;
+}
+input[type="email"]:focus{
+    border: 3px solid green;
+    outline: none;
+}
+
+textarea[type="text"]:focus{
+    border: 3px solid green;
+    outline: none;
+}
     
